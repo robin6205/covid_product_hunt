@@ -7,7 +7,6 @@ RUN apt-get update && \
 COPY src/ app/
 WORKDIR app/
 
-#RUN mysql_secure_installation utility
 RUN pip3 install -r requirements.txt
 RUN chmod +x server.py
 
