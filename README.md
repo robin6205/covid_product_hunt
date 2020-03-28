@@ -5,6 +5,9 @@ To find toilet paper for those in need!
 ## Table of Contents
 
 * [About COVID-19 Product Hunt](#about-covid-19-product-hunt)
+* [Development Tools](#development-tools)
+* [Development Team](#development-team)
+* [Installation](#installation)
 
 ## About COVID-19 Product Hunt
 
@@ -12,10 +15,22 @@ During this unfortunate pandemic, United States stores have had an increasingly 
 
 COVID-19 Product Hunt seeks to help those in search of these items by searching popular national chains for products in stock at the users specified location. 
 
+## Development Tools
+
+* Front-end: Bootstrap, Vanilla HTML/CSS, Jinja2
+* Back-end: Flask, Python, MySQL, Gunicorn
+* Deployed with: Dockerized on a DigitalOcean server
+
 ## Development Team
 
 Paul Jones
-University of North Carolina at Chapel Hill 2021
+University of North Carolina at Chapel Hill 
+Class of 2021
 
 Josh Chang
-Purdue University 2021
+Purdue University
+Class of 2021
+
+## Installation
+
+Simply build from the Dockerfile and run the corresponding image!
